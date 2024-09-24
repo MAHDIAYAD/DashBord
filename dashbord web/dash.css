@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+body{
+	background-color: #001;
+	display: flex;
+}
+.img-box{
+    width: 30%;
+    height: 20%;
+    	flex-shrink: 0;
+
+
+}
+.img-box img
+{
+	width: 100%;
+	border-radius:50%;
+	overflow: hidden;
+}
+.menu{
+	background-color: #123;
+	width: 50px;
+	height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+
+}
+.menu:hover{
+	width: 260px;
+}
+ul{
+	list-style: none;
+	position: relative;
+	height: 95%;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 8px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	transition: 0.5s;
+}
+ul li a:hover, .active , .data-box .box:hover ,td:hover {
+	background-color: #ffffff55;
+	}
+.logout{
+	position: absolute;
+   bottom: 0;
+   width: 100%
+}
+.logout a{
+	background: #a00;
+
+}
+ul li a i{
+	font-size: 30px;
+}
+.profil{
+	display: flex;
+	align-items: center;
+}
+.profil h2{
+	font-size: 20px; 
+	text-transform: capitalize;
+}
+.content{
+	width: 1200px;
+
+}
+.title-info{
+		overflow: hidden;
+	background: #0481ff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 15px;
+
+}
+.data-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    grid-gap: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.data-box .box{
+	height: 150px;
+	background: #123;
+	flex-basis: 150px;
+	flex-grow: 1;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+}
+.data-box .box i{
+	font-size: 35px;
+}
+.data-box .box .dta{
+	font-size: 25px;
+	text-decoration: none;
+	list-style: none;
+}
+.data-box .box .dta span{
+	list-style: none;
+	font-size: 35px;
+}
+
+
+table{
+	width: 100%;
+	text-align: right;
+	border-spacing: 10px;
+}
+td , th{
+	background-color: #123;
+	height: 40px;
+}
+ .cunt{
+	padding: 6px;
+	border-radius: 8px;
+}
+
+.cunt{
+	background-color: gold;
+	color: black;
+}
